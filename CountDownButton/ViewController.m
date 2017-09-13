@@ -29,7 +29,7 @@
     btn.backgroundColor = [UIColor greenColor];
     btn.startTitle = @"点击发送";
     btn.changeTitle = @"验证码已发送";
-    btn.alignType = Right;
+    //btn.alignType = Right;
     btn.font = [UIFont systemFontOfSize:14];
     [self.view addSubview:btn];
     
