@@ -42,6 +42,6 @@ typedef NS_ENUM(NSInteger, AlignType) {
 /**
  构造方法
  */
-- (instancetype)initWithDuration:(int)duration buttonClicked:(void(^)())buttonClicked countDown:(void(^)(int time))countDownBlock countDownCompletion:(void(^)())completionBlock;
+- (instancetype)initWithDuration:(int)duration buttonClicked:(void(^)())buttonClicked countDowning:(void(^)(int time))countDownBlock countDownCompletion:(void(^)())completionBlock;
 
 @end

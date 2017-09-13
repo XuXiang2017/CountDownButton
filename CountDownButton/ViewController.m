@@ -21,7 +21,7 @@
     
     CountDownButton *btn = [[CountDownButton alloc] initWithDuration:20 buttonClicked:^{
         NSLog(@"开始");
-    } countDown:^(int time) {
+    } countDowning:^(int time) {
         NSLog(@"%d",time);
     } countDownCompletion:^{
         NSLog(@"完成");

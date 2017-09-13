@@ -28,7 +28,7 @@ typedef void(^CountDownCompletionBlock)();
 @end
 @implementation CountDownButton
 
-- (instancetype)initWithDuration:(int)duration buttonClicked:(void(^)())buttonClicked countDown:(void(^)(int time))countDownBlock countDownCompletion:(void(^)())completionBlock {
+- (instancetype)initWithDuration:(int)duration buttonClicked:(void(^)())buttonClicked countDowning:(void(^)(int time))countDownBlock countDownCompletion:(void(^)())completionBlock {
     self = [super init];
     if (self) {
         _countDownTime = duration;//倒计时最大时间，默认设为60s
